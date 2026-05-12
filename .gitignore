@@ -1,0 +1,19 @@
+# Ignore Vim swap files
+*.swp
+*.swo
+*.swn
+
+# Ignore Vim undo files
+vim/.vim/undo/*
+
+# Ignore Vim backup files
+vim/.vim/backup/*
+
+# Ignore Vim plugin directories
+vim/.vim/plugged/*
+
+# Ignore swap files in plugin directories
+vim/.vim/swap/*
+
+# Ignore untracked plugin directory if not needed
+vim/.vim/plugged/auto-pairs/*
